@@ -23,7 +23,6 @@ class App extends Component {
     })
   }
 
-  
   render() {
     return (
       <div>
@@ -31,7 +30,7 @@ class App extends Component {
         <p>Random quotes from the best announcer in baseball history.</p>
         <h3>{this.state.currentQuote}</h3>
         <button id="getQuote" onClick={this.handleClick}>Quote</button>
-        <button id="tweet">Tweet</button>
+        <a href={"https://twitter.com/home/?status=?" + this.state.currentQuote}><button id="tweet">Tweet</button></a>
       </div>
     );
   }
