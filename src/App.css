@@ -5,16 +5,17 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   text-align: center;
+  margin-top: 200px;
 }
-h1 {
+h1, h3 {
   text-align: center;
   color: white;
   font-family: "Arial Black", Gadget, sans-serif;
-  margin-top: 200px;
 }
 p {
   text-align: center;
   color: white;
+  margin-top: -20px;
 }
 .wrapper {
   text-align: center;
